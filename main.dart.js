@@ -23186,9 +23186,11 @@ a7k:function a7k(a,b){this.a=a
 this.b=b},
 a7n:function a7n(a,b){this.a=a
 this.b=b},
-Je:function Je(a,b,c){this.b=a
-this.d=b
-this.w=c},
+Je:function Je(a,b,c,d){var _=this
+_.b=a
+_.d=b
+_.r=c
+_.w=d},
 Ff:function Ff(a,b,c,d,e,f){var _=this
 _.c=a
 _.d=b
@@ -67697,7 +67699,7 @@ $2(a,b){var s,r="Helvetica",q=null,p=A.ir("Reasons for Vaccine Hesitancy",q,q,q,
 o.d===$&&A.a()
 s=o.e
 s===$&&A.a()
-return A.TA(new A.cf(B.Bv,A.lT(A.b([p,A.u3(new A.fO(new A.cf(B.Bn,new A.Ii(9,new A.ae3(o),o.YR(this.b),s,new A.Je(new A.b3(0,20,0,0),B.Ps,A.fU(q,q,q,q,q,q,q,q,r,q,q,18,q,q,q,q,q,!0,q,q,q,q,q,q,q,q)),q),q),n)),B.f4,new A.u6(n,q),B.f4],t.p),B.ac,B.a3,B.aq),q),q,q)},
+return A.TA(new A.cf(B.Bv,A.lT(A.b([p,A.u3(new A.fO(new A.cf(B.Bn,new A.Ii(9,new A.ae3(o),o.YR(this.b),s,new A.Je(new A.b3(0,20,0,0),B.Ps,10,A.fU(q,q,q,q,q,q,q,q,r,q,q,18,q,q,q,q,q,!0,q,q,q,q,q,q,q,q)),q),q),n)),B.f4,new A.u6(n,q),B.f4],t.p),B.ac,B.a3,B.aq),q),q,q)},
 $S:424}
 A.ae3.prototype={
 $1(a){var s=this.a.d
@@ -72214,9 +72216,10 @@ if(b==null)return!1
 if(r===b)return!0
 if(J.I(b)!==A.q(r))return!1
 s=!1
-if(b instanceof A.Je)if(b.b.i(0,r.b))if(b.d===r.d)s=b.w.i(0,r.w)
+if(b instanceof A.Je)if(b.b.i(0,r.b))if(b.r===r.r)if(b.d===r.d)s=b.w.i(0,r.w)
 return s},
-gu(a){return A.L(this.b,null,10,null,B.w5,this.d,this.w,null,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
+gu(a){var s=this
+return A.L(s.b,null,s.r,null,B.w5,s.d,s.w,null,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
 A.Ff.prototype={
 Yz(){var s,r,q,p=A.b([],t.Hw)
 this.Y6()
@@ -72242,7 +72245,7 @@ q=m.bQ(s.ax.a).bQ(r.w)
 switch(0){case 0:m=o.Yz()
 s=o.Yp(r.d)
 p=o.Yo(B.w5)
-return A.ayp(o.r,n,B.Kb,o.Yn(B.Pq),10,m,n,n,p,r.b,s,!1,q,n,n,n,0.5)}}}
+return A.ayp(o.r,n,B.Kb,o.Yn(B.Pq),r.r,m,n,n,p,r.b,s,!1,q,n,n,n,0.5)}}}
 A.xK.prototype={
 ad(){return new A.Qs(null,null)}}
 A.Qs.prototype={
